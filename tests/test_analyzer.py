@@ -30,6 +30,7 @@ def test_count_characters_short():
 def test_count_sentences():
     text = "Hello world. This is a test."
     assert count_sentences(text) == 2
+    #hola
 
 
 def test_longest_word():
