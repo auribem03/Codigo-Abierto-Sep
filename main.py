@@ -1,4 +1,12 @@
-from analyzer.text_analyzer import (count_words,count_characters,count_paragraphs,count_sentences,longest_paragraph,longest_word)
+from analyzer.text_analyzer import (
+    count_words,
+    count_characters,
+    count_paragraphs,
+    count_sentences,
+    longest_paragraph,
+    longest_word,
+    longest_sentence)
+
 
 text = """
 Hola perros, este texto es para analizar el programa.
@@ -14,3 +22,5 @@ print("Párrafos: ", count_paragraphs(text))
 print("Oraciones: ", count_sentences(text))
 print("Párrafo más largo: ", longest_paragraph(text))
 print("Palabra más larga: ", longest_word(text))
+print("Oración más larga: ", longest_sentence(text))
+

@@ -20,7 +20,7 @@ def longest_word(text):
         return ""
     return max(words, key=len)
 
-def longest_setence(text):
+def longest_sentence(text):
     sentences = text.split('.')
     sentences = [s for s in sentences if s.strip()]
     if not sentences:

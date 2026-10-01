@@ -4,7 +4,8 @@ import os
 #Agregar ruta de paquetes
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from analyzer.text_analyzer import (count_words, count_characters, 
+from analyzer.text_analyzer import (count_words,
+                                    count_characters, 
                                     count_sentences,
                                     longest_word)
 
