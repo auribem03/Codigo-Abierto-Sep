@@ -19,7 +19,7 @@ def test_count_words():
 
 def test_count_characters():
     text = "This is a sample text."
-    assert count_characters(text) == 23
+    assert count_characters(text) == 22
 
 
 def test_count_characters_short():
