@@ -33,4 +33,4 @@ jobs:
             uses: docker/build-push-action@v6
             with: 
                 push: true
-                tags: ghcr.io/${{github.actor}}/Codigo-Abierto-Sep:latest
+                tags: ghcr.io/${{github.actor}}/codigo-abierto-sep:latest
